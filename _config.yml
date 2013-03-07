@@ -8,15 +8,16 @@ pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-#
-title : Jekyll Bootstrap
-tagline: Site Tagline
+#tagline: Site Tagline
+
+title : Micheal's blog by jekyll
+#my_word : my word
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : micheal xu
+  email : micheal.xudb@foxmail.com
+  github : micheal-xudb
+  twitter : micheal.xudb@foxmail.com
+  feedburner : micheal.xudb@foxmail.com
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +27,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://micheal-xudb.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -79,9 +80,10 @@ JB :
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
+  # Disqus, Intense Debate, livefyre, and Facebook Comments
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
